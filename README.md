@@ -36,6 +36,7 @@ Use platformio, arduino ide, or other to edit configuration.h, compile, and uplo
 ```
 openssl req -x509 -nodes -newkey rsa:2048 -keyout privkey.pem -sha256 -out fullchain.pem -days 4000 -subj "/C=US/ST=CA/L=province/O=Anytown/CN=CommonName"
 ```
+Copy/paste the contents of the files into your configuration.h (preferably using notepad... beware of modified EOL's if you use notepad).
 ## Notes
 Since this code is intended to always be connected to Wifi, it is important to choose a PIR sensor that is not sensitive to RF interference. The author has had much success using "AM312" type PIR sensors. The common 501 sensor for the most part will not work with this project due to false triggering from RFI if it is located anywhere near the ESP board.
 
