@@ -7,7 +7,7 @@
 // ota & beep @qos 1. User configs are in configuration.h... comment out the
 // line below!!!
 ////////////////////////////////////////////////////////////////////////////////
-#define privacy // uncomment, or rename configuration.h to privacy.h (4github).
+//#define privacy // uncomment, or rename configuration.h to privacy.h (4github).
 
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
