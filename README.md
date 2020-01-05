@@ -10,6 +10,7 @@ PIR on and off pubs are implemented with "manual qos1" for enhanced reliability;
 This code is as non-blocking as possible for this author to implement, however no modifications were done to the included libraries. These libraries can (and often do) contain blocking code. :(
 ## Pubs & Subs
 *Note: Pubs and subs topics use the format "MY_MQTT_UNIQUE_ID/topic". The "MY_MQTT_UNIQUE_ID" is hardcoded in the configuration file.*
+
 S/P | Topic | Data
 --- | ------ | ---------------
 Sub | "ota" | Firmware Upload [0 = normal, 1 = upload]
